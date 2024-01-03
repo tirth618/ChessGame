@@ -1,4 +1,6 @@
 from ChessPiece import Piece
+from ChessBoard import Board
+
 class Queen(Piece):
     #inititalizing pieces and return
     def __init__(self, piece, colour, startx, starty, img):
