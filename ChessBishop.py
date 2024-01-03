@@ -22,7 +22,6 @@ class Bishop(Piece):
                     else:
                         break
             cy -= 1
-        
         #top left
         cy = y-1
         cx = x-1
