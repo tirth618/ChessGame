@@ -1,4 +1,5 @@
 from ChessPiece import Piece
+from ChessBoard import Board
 
 class King(Piece):
     #inititalizing pieces and return
