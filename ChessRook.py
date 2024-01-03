@@ -20,6 +20,7 @@ class Rook(Piece):
                     break
                 else:
                     break
+                    
         #Down
         for i in range(y+1, 8):
             if not board.has_piece(x, i):
