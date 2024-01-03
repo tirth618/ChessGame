@@ -1,7 +1,5 @@
 from ChessPiece import Piece
 from ChessBoard import Board
-board1 = Board()
-board1.make_board()
 
 class Horse(Piece):
      #inititalizing pieces and return
