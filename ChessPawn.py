@@ -1,5 +1,7 @@
 from ChessPiece import Piece
 from ChessQueen import Queen
+from ChessBoard import Board
+
 class Pawn(Piece):
     #methods to initialize variables and the return
     def __init__(self, piece, colour, startx, starty, img):
