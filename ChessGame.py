@@ -260,4 +260,5 @@ def run_game(game):
         #executing the move, and continuing on
         game.move_piece(xcord, ycord, piece)
         quitgame = input("Press q to quit, press enter to continue.")
+
 run_game(game)
