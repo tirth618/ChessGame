@@ -1,5 +1,6 @@
 
 class Board:
+    #initializing
     rect = (113, 113, 525, 525)
     startX = rect[0]
     startY = rect[1]
