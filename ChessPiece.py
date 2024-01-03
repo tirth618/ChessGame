@@ -1,3 +1,5 @@
+from ChessBoard import Board
+
 class Piece:
     #initializing the variables in the piece
     def __init__(self, piece, colour, startx, starty, img):
