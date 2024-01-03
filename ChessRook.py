@@ -1,5 +1,7 @@
 from ChessPiece import Piece
 from ChessKing import King
+from ChessBoard import Board
+
 class Rook(Piece):
     #inititalizing pieces and return
     def __init__(self, piece, colour, startx, starty, img):
